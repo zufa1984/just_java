@@ -1,0 +1,60 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Shunchaki Java</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">ism</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="toppings">qo\'shimchalar</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="whipped_cream">ko\'pirtirilgan qaymoq</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="chocolate">Shokolad</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="quantity">Soni</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
+    <string name="initial_quantity_value">1</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="order">Buyurtma</string>
+
+    <!--
+       Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+       user's name. [CHAR LIMIT=NONE] -
+        Эътибор беринг қуйидаги сатр мисол тариқасида бошқа йўл билан белгиланди. Буни афзаллик томони агарда таржимонлар мазкур сатрни боқа тилга таржима қилиши натижасида исмдан кейин сатр номи
+        чиқиши керак бўлса яъни,"Amy:Name" чиқарилиши керак бўлса ":Name" сўзини исм қийматидан кейин ёзиши мумкин.
+
+     -->
+    <string name="order_summary_name">Ism: <xliff:g id="customer" example="Amy">%s</xliff:g></string>
+
+    <string name="order_summary_whipped_cream">ko\'pirtirilgan qaymoq qo\'shish? <xliff:g id="cream" example="true">%s</xliff:g></string>
+
+    <string name="order_summary_chocolate">Shokolad qo\'shish? <xliff:g id="choco" example="true">%s</xliff:g></string>
+
+    <string name="quantity_coffee">Soni: <xliff:g id="quantity" example="1">%d</xliff:g></string>
+
+    <string name="total_price">Jami: <xliff:g id="price" example="5">%s</xliff:g></string>
+
+    <string name="thank_you">Raxmat!</string>
+
+    <string name="can_not_have_more100">Siz 100 donadan ortiq qaxva sotib ololmaysiz</string>
+
+    <string name="can_not_have_less1">Siz 1 donadan kam qaxva sotib ololmaysiz</string>
+
+    <string name="yesCream">ha</string>
+
+    <string name="noCream">yo\'q</string>
+
+    <string name="yesChoco">ha</string>
+
+    <string name="noChoco">yo\'q</string>
+
+    <string name="order_for"><xliff:g id="name" example="order for">%s</xliff:g> uchun Shunchaki Javadan buyurtma</string>
+
+
+</resources>
